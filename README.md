@@ -23,11 +23,15 @@ Generated training samples of good and bad links from given directed graph and f
       https://www.youtube.com/watch?v=2M77Hgy17cg
 
 ### Business objectives and constraints:
-      No low-latency requirement.
-      Probability of prediction is useful to recommend ighest probability links
-      Performance metric for supervised learning:
-      Both precision and recall is important so F1 score is good choice
-      Confusion matrix
+      #### No low-latency requirement:   
+            Given a pair of user U1 and U2, we are not hurry to predict  if they follow each other..
+      
+      #### Probability of prediction is useful to recommend highest probability links
+            create probabilkity rank to show how much % wise user will be following. May be I show top 5 users to follow based on                     probability.
+           
+      #### Performance metric for supervised learning:
+      #### Both precision and recall is important so F1 score is good choice, we could be using top K or precision. 
+      #### Confusion matrix
 
 ### Input Data:
    https://www.kaggle.com/c/FacebookRecruiting/data
@@ -45,9 +49,6 @@ In above graph, U3 , U4 are common.
 U1,U2 features:
 Number of common vertices being followed By U1 and U2.
 come up with graph based fatures. 
-
-### Business Constraints:
-
 
 
 
