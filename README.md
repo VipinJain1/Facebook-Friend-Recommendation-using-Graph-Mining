@@ -3,7 +3,6 @@ Any help needed to execute the code or understanding the code, please send me me
 More updates coming soon. Meanwhile Please look at the code. I have added some comments over there.  
 
 # Facebook-Friend-Recommendation-using-Graph-Mining
-
 ### Problem statement:
 
 Given a directed social graph, have to predict missing links to recommend users (Link Prediction in graph)
